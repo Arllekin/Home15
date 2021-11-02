@@ -63,4 +63,12 @@ class ActionController
         return view('warning');
     }
 
+    public function application (Request $request)
+    {
+        if(Auth::id() !== null){
+            return redirect()->route('create_ad');
+        }
+        return view('application');
+    }
+
 }

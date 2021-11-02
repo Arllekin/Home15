@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How too run a project:
+
+1. Клонировать репозиторий (если вы это видите, возможно вам даже удалось это сделать)
+2. Сконфигурировать .env файл.
+3. Собрать проект используя docker-compose up -d (если докера у вас нет - страдайте)
+4. Запустить миграции с сидами. Для этого необходимо войти в контейнер, создать терминал и использовать команду php artisan migrate --seed
+5. Проект готов к тестам.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

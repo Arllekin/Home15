@@ -44,6 +44,9 @@
                         <input type="submit" class="btn btn-success" value="Вход" style="margin-top: 20px">
                     </div>
                 </form>
+                <div style="margin: 20% 20px 0 80%; position: absolute; font-size: x-large">
+                    <a style="color: #ffd600" href="{{$oauth_login_discord}}">Войти через Discord</a>
+                </div>
             @else
 {{--                Вывод приветствия--}}
                 <div style="color: #ffd600; margin: 50px 20px 0 77%; position: absolute">
